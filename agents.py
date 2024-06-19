@@ -21,7 +21,7 @@ class AgentState(TypedDict):
 
 
 # Question Agent
-class QuestionAgent:
+class Agenticflow:
 
     def __init__(self, model, tools, system=""):
         self.system = system
