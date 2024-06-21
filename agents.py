@@ -15,8 +15,8 @@ load_dotenv()
 search_tool = TavilySearchResults(max_results=2)
 
 
-# Agent State
-class AgentState(TypedDict):
+# Flow State
+class FlowState(TypedDict):
     messages: Annotated[list[AnyMessage], operator.add]
 
 
